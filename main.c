@@ -80,14 +80,6 @@ int main()
         printf ( " no memory for this matrix");
         exit(1);
     }
-    /*for(i=0;i<g1->v;i++)
-    {
-        for(j=0;j<g1->v;j++)
-        {
-            costuri1[i][j]=INT_MAX;
-            costuri2[i][j]=INT_MAX;
-        }
-    }*/
 
     fseek(f1,0L,SEEK_SET);
     while(fscanf(f1,"%s",fisier)!=EOF)
